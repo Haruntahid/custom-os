@@ -20,7 +20,7 @@ print:
 .done:
     ret
 
-msg db "Hello, OS from copy.sh!", 0
+msg db "Hello, This is a custom OS", 0
 
 ; Pad to 512 bytes and add boot signature
 times 510 - ($ - $$) db 0
